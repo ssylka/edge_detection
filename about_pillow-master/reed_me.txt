@@ -15,10 +15,12 @@ This class accepts a link to a local image file as input to the constructor and 
 
 • FindEdges - Edge detection
 
-• Set - set image by a local image file in a argunmet
+All upp function save changes with image in propertie in class and return changed image.
 
-• Get - get obgect of calss Image
+• Set - set image by a local image file in a argunmet. Nothing returns.
 
-• Show - Show image
+• Get - get obgect of calss Image. Nothing sets.
+
+• Show - Show image. Nothing sets and returns
 
 *work with lib PIL (Pillow)
