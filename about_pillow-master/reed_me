@@ -1,0 +1,17 @@
+This class accepts a link to a local image file as input to the constructor and have functions:
+
+• Contrast and Brightness - Contrast and brightness changing 
+# Brightness range selection is from -255 to 255. Correspond in funnstion as argument
+• Reverse - Image inversion
+• Crop - Frame selection by two points
+• Add - Image blending
+# you can add in argument scale and offset.  If omitted, scale defaults to 2.0, and offset to 0.0.
+# result is calculate as follow: out = ((image1 + image2) / scale + offset)
+
+• GaussianBlur - Noise reduction (blurring)
+• FindEdges - Edge detection
+• Set - set image by a local image file in a argunmet
+• Get - get obgect of calss Image
+• Show - Show image
+
+*work with lib PIL (Pillow)
